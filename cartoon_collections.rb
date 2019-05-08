@@ -5,8 +5,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(planteer)
-    planteer.map do |planteers| 
-      puts planteer << "!" 
+    
   end
 end
 
