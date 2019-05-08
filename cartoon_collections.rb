@@ -16,12 +16,10 @@ end
    end
 end
 
-def find_the_cheese(cheese_types)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.find do |cheese|
-    return true
-  else 
-    return nil 
-    end
+
+def find_the_cheese(array)
+  array.find do |cheese| 
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+    end 
   end 
 end
